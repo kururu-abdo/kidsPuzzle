@@ -1,0 +1,14 @@
+{
+    "appName":"kids puzzle" ,
+    "choose_level_txt":"اختر المستوى" ,
+    "level_one_txt" :"سهل" ,
+    "level_two_txt" :"متوسط" ,
+    "level_three_txt":"صعب" ,
+    "tries" :"عدد المحاولات" ,
+    "you_lost_txt" :"لقد خسرت :(",
+    "you_win_txt" :"لقد فزت!" ,
+    "try_again_txt" :"حاول مرة اخرى" ,
+    "play_again_txt" :"إلعب مرة اخرى" ,
+    "time" :"الزمن المتبقي"
+
+}

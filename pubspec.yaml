@@ -1,0 +1,59 @@
+name: kids_puzzle
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.15.1 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.1
+  equatable: 2.0.3
+  collection: 1.15.0
+  get_storage: 2.0.3
+  flutter_countdown_timer: 4.1.0
+  just_audio: 0.9.20
+  lottie: 1.2.2
+  audioplayers: 0.20.1
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^1.0.0
+  lints: 1.0.1
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  assets: 
+    - assets/sounds/
+    - assets/sounds/flip.mp3
+    - assets/sounds/right.mp3
+    - assets/sounds/wrong.mp3
+    - assets/flip.mp3
+    - assets/right.mp3
+    - assets/wrong.mp3
+    - audio/
+    - assets/audio/
+    - assets/audio/flip.mp3
+    - assets/animations/
+    - assets/images/
+  fonts: 
+    - family: BalooBhaijaan2
+      fonts: 
+        - asset: fonts/bhaijaan/BalooBhaijaan2-Regular.ttf
+        - asset: fonts/bhaijaan/BalooBhaijaan2-Bold.ttf
+        - asset: fonts/bhaijaan/BalooBhaijaan2-ExtraBold.ttf
+        - asset: fonts/bhaijaan/BalooBhaijaan2-SemiBold.ttf
+        - asset: fonts/bhaijaan/BalooBhaijaan2-Medium.ttf
+    - family: URW DIN Arabic
+      fonts: 
+        - asset: fonts/arb/ArbFONTS-URW-DIN-Arabic-1.ttf
+        - asset: fonts/arb/ArbFONTS-URW-DIN-Arabic-Light.ttf
+        - asset: fonts/arb/ArbFONTS-URW-DIN-Arabic-Medium.ttf
+        - asset: fonts/arb/ArbFONTS-URW-DIN-Arabic-XLight.ttf
+    - family: Palatino Sans Arabic
+      fonts: 
+        - asset: fonts/bhaiji/Bahij_Palatino_Sans_Arabic-Bold.ttf
+  uses-material-design: true
+

@@ -1,0 +1,13 @@
+{
+    "appName":"kids puzzle" ,
+    "choose_level_txt":"choose your level" ,
+    "level_one_txt" :"Easy" ,
+    "level_two_txt" :"Middle" ,
+    "level_three_txt":"Hard" ,
+    "tries" :"Tries" ,
+    "you_lost_txt" :"You Lost:(",
+    "you_win_txt" :"You Won!" ,
+    "try_again_txt" :"Try Again" ,
+    "play_again_txt" :"Play Again" ,
+    "time" :"Remaining Time"
+}
