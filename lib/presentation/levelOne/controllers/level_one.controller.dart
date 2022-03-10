@@ -74,8 +74,12 @@ refreshGame();
 
      tries.value=0;
      update();
+     //clearing array
      numbers.value=[];
+     //clearing sorted array
      sortedNumbers.value=[];
+     //clear set
+     setOfInts= Set();
      fillArray();
    countdownController!.value = Duration(seconds: 90).inMilliseconds;
    countdownController!.start();

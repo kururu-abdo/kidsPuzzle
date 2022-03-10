@@ -82,8 +82,8 @@ DragAndDropGridView(
 	},
   
 //childWhenDragging:(i)=> NumberContainer(model: controller.numbers[i] ,color: Colors.green,) ,
-feedback:(i)=> Material(child: NumberContainer(model: controller.numbers[i] ,color: Colors.green,
-height: 30 , width: 30,
+feedback:(i)=> Material(child: NumberContainer(model: controller.numbers[i] ,color: Colors.red,
+height: 60 , width: 60,
 fontSize: 15,
 )),
 isCustomFeedback: true,

@@ -66,8 +66,13 @@ refreshGame();
           //controller = CountdownTimerController(endTime:  DateTime.now().millisecondsSinceEpoch + 1000 * 90, onEnd: onEnd());
 
      tries.value=0;
+     update();
+      //clearing array
      numbers.value=[];
+     //clearing sorted array
      sortedNumbers.value=[];
+     //clear set
+     setOfInts= Set();
      fillArray();
    countdownController!.value = Duration(seconds: 240).inMilliseconds;
    countdownController!.start();

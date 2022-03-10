@@ -83,12 +83,14 @@ DragAndDropGridView(
 		}
 		return true;// If you want to accept the child return true or else return false
 	},
+  
     isCustomChildWhenDragging: true,
 childWhenDragging:(i)=>
 Container(),
+
 //childWhenDragging:(i)=> NumberContainer(model: controller.numbers[i] ,color: Colors.green,) ,
-feedback:(i)=> Material(child: NumberContainer(model: controller.numbers[i] ,color: Colors.green,
-height: 40 , width: 40,
+feedback:(i)=> Material(child: NumberContainer(model: controller.numbers[i] ,color: Colors.red,
+height: 80 , width: 80,
     fontSize: 18,
 )),
 isCustomFeedback: true,
