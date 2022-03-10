@@ -15,11 +15,13 @@ import 'package:kids_puzzle/presentation/widgets/lose_alert.dart';
 import 'package:kids_puzzle/presentation/widgets/win_alert.dart';
 
 class LevelOneController extends GetxController {
+  //unsorted array 
  RxList<int>  numbers = 
   <int>[].obs;
 // var time =(DateTime.now().millisecondsSinceEpoch + 1000 * 90).obs;
   CountdownTimerController? controller;
    CountdownController? countdownController; 
+    //sorted array
   RxList<int>  sortedNumbers = 
   <int>[].obs;
    Set<int> setOfInts = Set();

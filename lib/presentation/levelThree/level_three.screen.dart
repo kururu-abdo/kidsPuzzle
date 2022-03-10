@@ -87,6 +87,9 @@ height: 30 , width: 30,
 fontSize: 15,
 )),
 isCustomFeedback: true,
+  isCustomChildWhenDragging: true,
+childWhenDragging:(i)=>
+Container(),
 // /isCustomChildWhenDragging: true,
     onReorder: (oldIndex, newIndex) async{
 	   await controller.swapping(oldIndex, newIndex);

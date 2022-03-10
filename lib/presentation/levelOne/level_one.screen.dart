@@ -84,10 +84,17 @@ DragAndDropGridView(
 		}
 		return true;// If you want to accept the child return true or else return false
 	},
-  
-//childWhenDragging:(i)=> NumberContainer(model: controller.numbers[i] ,color: Colors.green,) ,
-feedback:(i)=> Material(child: NumberContainer(model: controller.numbers[i] ,color: Colors.green,)),
+  isCustomChildWhenDragging: true,
+childWhenDragging:(i)=>
+Container(),
+
+// NumberContainer(model: controller.numbers[i] ,color: Colors.green,) ,
+feedback:(i)=> 
+
+
+Material(child: NumberContainer(model: controller.numbers[i] ,color: Colors.green,)),
 isCustomFeedback: true,
+
 // /isCustomChildWhenDragging: true,
     onReorder: (oldIndex, newIndex) async{
 	   await controller.swapping(oldIndex, newIndex);
